@@ -6,7 +6,7 @@ const Register = () => {
   const [formData, setFormData] = useState({});
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
-  const url = "http://localhost:4000";
+  const url = "https://shop-mash.onrender.com";
   const navigate = useNavigate();
 
   const handleChange = (e) => {
