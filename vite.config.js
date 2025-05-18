@@ -10,4 +10,7 @@ export default defineConfig({
     host: true,
     allowedHosts: ['shop-mash.onrender.com'],
   },
+  build: {
+    outDir: 'dist',
+  }
 })
