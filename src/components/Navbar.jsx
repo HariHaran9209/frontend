@@ -25,9 +25,9 @@ const Navbar = () => {
     <div id="navbar-sticky" className="hidden md:flex items-center space-x-8">
       <ul className="flex items-center space-x-8 font-medium">
         <li><a onClick={() => navigate('/')} className="cursor-pointer text-blue-700 dark:text-blue-500">Home</a></li>
-        <li><a href="#" className="cursor-pointer text-gray-900 dark:text-white">About</a></li>
-        <li><a href="#" className="cursor-pointer text-gray-900 dark:text-white">Services</a></li>
-        <li><a href="#" className="cursor-pointer text-gray-900 dark:text-white">Contact</a></li>
+        <li><a href="#explore-menu" className="cursor-pointer text-gray-900 dark:text-white">Explore Our Menus</a></li>
+        <li><a href="#app-download" className="cursor-pointer text-gray-900 dark:text-white">App Download</a></li>
+        <li><a href="#footer" className="cursor-pointer text-gray-900 dark:text-white">About Us</a></li>
       </ul>
     </div>
 
