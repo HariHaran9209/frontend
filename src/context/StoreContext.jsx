@@ -5,7 +5,7 @@ export const StoreContext = createContext(null)
 
 const StoreContextProvider = (props) => {
     const [ token, setToken ] = useState("")
-    const url = 'http://localhost:4000'
+    const url = 'https://shop-mash.onrender.com'
     const [ cartItems, setCartItems ] = useState({})
     const [ food_list, setFoodList ] = useState([])
 
